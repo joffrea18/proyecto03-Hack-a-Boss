@@ -38,7 +38,7 @@ Se trabajo entre algunas otras en las siguientes mejoras:
             ☏ useState
 
 
-### Librerías instaladas:
+### *** Librerías instaladas ***
 
     - react-router-dom
 
@@ -55,7 +55,7 @@ Se trabajo entre algunas otras en las siguientes mejoras:
     🎬 - Se habilita automáticamente la funcionalidad de login para usuarios Registrados con éxito.
     
 
-## Funcionalidades en desarrollo:
+## *** Funcionalidades en desarrollo ***
 
     👀 - Se debe habilitar una visualización general de todos los archivos contenidos en el cloud del usuario validado.
     
@@ -66,7 +66,7 @@ Se trabajo entre algunas otras en las siguientes mejoras:
 
 
 
-## Tecnologías utilizadas
+# Tecnologías utilizadas
 
 
 # <img width="166" alt="IMG_NodeJs_" src="https://user-images.githubusercontent.com/123706095/236196535-2783aca6-aaee-4675-8501-f35ee35d1a5b.png">
