@@ -6,7 +6,7 @@ El siguiente proyecto está siendo desarrollado por los alumnos del grupo A 📝
 Realizaremos la conexión con nuestro Backend en el cual mediante servicios, hooks y los adecuados componentes en el Frontend nos permitirán tener una eperiencia más dinámica y visual.
 
 
-## Información Backend
+## 🟢 Información Backend
 
     - Se debe hacer npm i.
     
@@ -24,7 +24,7 @@ Se trabajo entre algunas otras en las siguientes mejoras:
     - Se amplificaron los campos permitiendo así mayor información detallada del usuario en su perfil.
 
 
-## Información Frontend
+## 🔵 Información Frontend
 
     - Se debe hacer npm i.
     
@@ -50,7 +50,7 @@ Se trabajo entre algunas otras en las siguientes mejoras:
     
     ⛔️ - Se crea el acceso de Registro para usuario no registrados con conexión y validación en la BBDD.
     
-    ✅ - Se crea el acceso de Login en el cual se habilita también la opción de Registro para nuevos usuarios y recuperación de contraseña.
+    👤 - Se crea el acceso de Login en el cual se habilita también la opción de Registro para nuevos usuarios y recuperación de contraseña.
     
     🎬 - Se habilita automáticamente la funcionalidad de login para usuarios Registrados con éxito.
     
