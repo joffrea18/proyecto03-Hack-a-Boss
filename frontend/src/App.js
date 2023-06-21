@@ -20,7 +20,7 @@ function App() {
             <Routes >
               <Route path='/' element={<Auth />} />
               <Route path='/login' element={<LoginPage />} />
-              <Route path='/loginuser' element={<Uservalidate />} />
+              <Route path={`/login/${id}`} element={<Uservalidate />} />
               <Route path='/user' element={<UserPage />} />
               <Route path='*' element={<NotFound />} />
             </Routes>
