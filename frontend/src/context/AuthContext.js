@@ -15,6 +15,8 @@ const AuthProviderContext = ({ children }) => {
         localStorage.setItem('token', token);
     }, [token]);
 
+    // console.log(user);
+
     useEffect(() => {
 
         const getMyUserData = async () => {

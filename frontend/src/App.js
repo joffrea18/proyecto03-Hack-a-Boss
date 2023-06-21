@@ -7,8 +7,11 @@ import LoginPage from './pages/LoginPage';
 import UserPage from './pages/UserPage';
 import NotFound from './pages/NotFound';
 import Uservalidate from './pages/Uservalidate';
+import { useState } from 'react';
 
 function App() {
+
+  const [ id, setId ] = useState();
 
   return (
     <>
@@ -16,7 +19,7 @@ function App() {
         <Header />
             <Routes >
               <Route path='/' element={<Auth />} />
-                <Route path='/login' element={<LoginPage />} />
+              <Route path='/login' element={<LoginPage />} />
               <Route path='/loginuser' element={<Uservalidate />} />
               <Route path='/user' element={<UserPage />} />
               <Route path='*' element={<NotFound />} />
