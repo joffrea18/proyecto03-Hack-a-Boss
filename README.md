@@ -64,7 +64,9 @@ Se trabajo entre algunas otras en las siguientes mejoras:
     ♻︎ - Se estimará la posibilidad de habilitar el editado del perfil del usuario.
 
 
-# ---- ******* Tecnologías utilizadas ******* ----
+
+
+## Tecnologías utilizadas
 
 
 # <img width="166" alt="IMG_NodeJs_" src="https://user-images.githubusercontent.com/123706095/236196535-2783aca6-aaee-4675-8501-f35ee35d1a5b.png">
