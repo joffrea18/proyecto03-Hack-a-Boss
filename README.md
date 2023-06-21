@@ -69,7 +69,7 @@ Se trabajo entre algunas otras en las siguientes mejoras:
 
 # <img width="166" alt="IMG_NodeJs_" src="https://user-images.githubusercontent.com/123706095/236196535-2783aca6-aaee-4675-8501-f35ee35d1a5b.png">
 
-# <img width="114" alt="img_react_" src="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667"
+# <img width="114" alt="img_react_" src="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667">
 
 
 # <img width="139" alt="IMG_MySql_" src="https://user-images.githubusercontent.com/123706095/236196551-452673a1-6f0e-4693-8c37-8fbbb3067788.png">
