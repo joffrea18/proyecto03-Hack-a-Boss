@@ -20,7 +20,7 @@ app.use(cors());
 // Controllers user
 app.post('/user', newUser); // listo ✅ (Permite el registro del usuario - email en pruebas)
 app.post('/login', loginController); // listo ✅ (Permite el login de usuarios registrados con validación de token)
-app.get('/loginuser', validateUser, getUser); // (Permite la modificacion de los datos del usuario - de momento solo lista la información)
+app.get('/login/:id', validateUser, getUser); // (Permite la modificacion de los datos del usuario - de momento solo lista la información)
 
 // Controllers files
 app.get('/id/list', listFiles); // (Permite listar los archivos del usuario)
