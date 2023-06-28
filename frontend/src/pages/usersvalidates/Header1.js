@@ -1,41 +1,21 @@
 import './Header1.css';
-import { Link } from 'react-router-dom';
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext } from 'react';
 import { AuthContext } from '../../context/AuthContext';
 
-const Header1 = () => {
 
-    const [ id, setId ] = useState(localStorage.getItem('id'));
-    const [ user, setUser ] = useState(id);
-    const [ error, setError ] = useState('');
-    const { login } = useContext(AuthContext);
-    console.log(user);
-    console.log(id);
+const Header1 = ( { id } ) => {
+    
+    const { logOut } = useContext(AuthContext);
 
-    try {
-        useEffect(() => {
-            localStorage.setItem('id', id);
-        }, [id]);
-
-        login(id)
-        console.log(id);
-
-    } catch (error) {
-        setError(error.message)
-    }
-
-    const setLogOut = () => {
-        if (!user) {
-            setUser(null)
-        } 
-    }
-
+    // const data = await getUserData({ token, id });
+    // const [ useri, setUser ] = useState('');
+    // console.log(user);
     
     return (
         <section>
             <ul>
                 <li><h2>{`Bienvenido a tu nube: ${id}`}</h2></li>
-                <li><Link to='/'><button onClick={() => {setLogOut(setUser)}}>LogOut 👋🏻</button></Link></li>
+                <li><button onClick={() => logOut()}>LogOut 👋🏻</button></li>
             </ul>
         </section>
     );

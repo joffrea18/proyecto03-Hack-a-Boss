@@ -41,10 +41,6 @@ export const loginService = async ({email, password}) => {
         throw new Error(json.message);
     }
 
-    // if(response){
-    //     return json.message;
-    // }
-
     return json.token;
     
 }
@@ -64,16 +60,12 @@ export const loginServiceId = async ({email, password}) => {
         throw new Error(json.message);
     }
 
-    // if(response){
-    //     return json.message;
-    // }
-
     return json.id;
     
 }
 
 export const getUserData = async ({token, id}) => {
-    const response = await fetch(`${process.env.REACT_APP_BACKEND}/loginuser`, {
+    const response = await fetch(`${process.env.REACT_APP_BACKEND}/login/${id}`, {
         method: "GET",
         headers: {
             Authorization: token,

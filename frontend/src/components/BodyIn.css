@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: white;
+}
+
+.button {
+    margin: .9rem;
+    border-radius: 2rem;
+    max-height: max-content;
+    color: rgba(68, 68, 210, 0.904);
+    background-color: rgba(0, 0, 0, 0.754);
+    cursor: pointer;
+    width: 10em;
+    height: 5ex;
+    font-weight: bold;
+    border-color:blue;
+  }
+  
+  .button:hover {
+    margin: 1.1rem;
+    border-radius: 2rem;
+    max-height: max-content;
+    color: hsla(8, 78%, 32%, 0.904);
+    background-color: rgba(0, 0, 0, 0.754);
+    cursor: pointer;
+    width: 13em;
+    height: 7ex;
+    font-weight: bold;
+    border-color:#a70f0f;
+  }

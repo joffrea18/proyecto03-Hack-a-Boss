@@ -36,7 +36,6 @@ const UserPage = () => {
         addres,
         city,
         province})
-        // if(registerUser) return <Register />
         navigate('/loading');
     } catch (error) {
       setError(error.message)

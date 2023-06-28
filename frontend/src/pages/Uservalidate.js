@@ -1,20 +1,21 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import './usersvalidates/UserValidate.css';
 import Header1 from './usersvalidates/Header1';
-import Files from '../components/Files';
+import { AuthContext } from '../context/AuthContext';
+import BodyIn from '../components/BodyIn';
+import { useParams } from 'react-router-dom';
 
 const Uservalidate = () => {
 
-    const [ show, setShow ] = useState(false);
+    const { user } = useContext(AuthContext);
+    const { id } = useParams();
+    const { email } = useParams();
 
     return (
-        <main>
-            <Header1 />
-            <button className="files" onClick={() => {setShow(!show)}}>
-                🗂️ Mis archivos
-            </button>
-            { show && <Files />}
-        </main>
+        <>
+        <Header1 id={id} email={email}/>
+        <BodyIn />
+        </>
     );
 }
 
