@@ -1,13 +1,20 @@
-import React from 'react';
-import Header1 from './usersvalidates/Header1';
+import React, { useState } from 'react';
 import './usersvalidates/UserValidate.css';
+import Header1 from './usersvalidates/Header1';
+import Files from '../components/Files';
 
 const Uservalidate = () => {
+
+    const [ show, setShow ] = useState(false);
+
     return (
-        <div>
-            {/* <h1>Usuario validado con éxito</h1> */}
-            <Header1 className='headeruser'/>
-        </div>
+        <main>
+            <Header1 />
+            <button className="files" onClick={() => {setShow(!show)}}>
+                🗂️ Mis archivos
+            </button>
+            { show && <Files />}
+        </main>
     );
 }
 

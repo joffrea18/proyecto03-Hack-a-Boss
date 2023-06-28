@@ -22,6 +22,19 @@ button {
     border-color:blue;
 }
 
+button:hover {
+    margin: 1.1rem;
+    border-radius: 2rem;
+    max-height: max-content;
+    color: hsla(8, 78%, 32%, 0.904);
+    background-color: rgba(0, 0, 0, 0.754);
+    cursor: pointer;
+    width: 13em;
+    height: 7ex;
+    font-weight: bold;
+    border-color:#a70f0f;
+  }
+
 ul {
     list-style: none;
     display: grid;

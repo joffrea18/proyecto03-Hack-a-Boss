@@ -1,26 +1,19 @@
-.loading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+button {
+  margin: .9rem;
+  border-radius: 2rem;
+  max-height: max-content;
+  color: rgba(68, 68, 210, 0.904);
+  background-color: rgba(0, 0, 0, 0.754);
+  cursor: pointer;
+  width: 10em;
+  height: 5ex;
+  font-weight: bold;
+  border-color:blue;
 }
 
-.loading:before {
-  content: '';
-  width: 48px;
-  height: 48px;
-  border: 5px solid #bcbdbe;
-  border-bottom-color: transparent;
-  border-radius: 50%;
-  display: inline-block;
-  box-sizing: border-box;
-  animation: rotation 1s linear infinite, fadein 0.3s linear 0.3s both;
+h1 {
+  color: white;
+  text-decoration: none;
 }
 
-@keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+

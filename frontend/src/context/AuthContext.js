@@ -26,16 +26,20 @@ const AuthProviderContext = ({ children }) => {
 
         const getMyUserData = async () => {
             try {
-                const info = await getUserData({token, id});
+                const info = await getUserData({ token, id });
                 setUser(info);
+                // console.log(info.id, info.token);
                 // console.log(info);
             } catch (error) {
                 logOut()
             }
         }
 
-        if(token) getMyUserData()
+        if(token && id) getMyUserData()
+
     }, [token, id]);
+
+    
 
     const login = (token) => {
         setToken(token);

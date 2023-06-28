@@ -26,9 +26,9 @@ const LoginPage = () => {
 
       // console.log(token);
       // console.log(info);
-      login(token)
+      login(token, id)
       console.log(id);
-      if (token) navigate(`/login/${id}`);
+      navigate('/loginuser');
       if (!token) navigate(`/login`);
     } catch (error) {
       setError(error.message)

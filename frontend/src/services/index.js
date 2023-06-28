@@ -73,7 +73,7 @@ export const loginServiceId = async ({email, password}) => {
 }
 
 export const getUserData = async ({token, id}) => {
-    const response = await fetch(`${process.env.REACT_APP_BACKEND}/login/${id}`, {
+    const response = await fetch(`${process.env.REACT_APP_BACKEND}/loginuser`, {
         method: "GET",
         headers: {
             Authorization: token,
