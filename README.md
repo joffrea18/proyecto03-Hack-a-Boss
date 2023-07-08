@@ -1,4 +1,4 @@
-# <img width="100" alt="img_123_" src="https://github.com/rto1991/proyecto02-Hack-a-Boss/assets/123706095/cca98819-db13-4f4d-ab25-918de9d27064"> ..................................👨‍💻 **********************************⌬⎨ < ☁ MyCloudDrive ☁ > ⎬⌬********************************** 👨‍💻..................................
+# <img width="100" alt="img_123_" src="https://github.com/rto1991/proyecto02-Hack-a-Boss/assets/123706095/cca98819-db13-4f4d-ab25-918de9d27064"> ..................................👨‍💻 ***********************⌬⎨ < ☁ MyCloudDrive ☁ > ⎬⌬*********************** 👨‍💻..................................
 
 El siguiente proyecto está siendo desarrollado por los alumnos del grupo A 📝 del Bootcamp de Desarrollo web; en este nuevo proyecto estaremos desarrollando el front de nuestra aplicación 💻.
 
@@ -62,7 +62,7 @@ Realizaremos la conexión con nuestro Backend en el cual mediante servicios, hoo
 
     
 
-#   *************************  Manual de uso de la aplicación **************************** 
+#   **************  Manual de uso de la aplicación ********************* 
 
 ##   
 
@@ -104,7 +104,7 @@ Realizaremos la conexión con nuestro Backend en el cual mediante servicios, hoo
         Utiliza el menú lateral para hacer algunas operaciones básicas, ver nuestro “acerca de” o la opción para completar tu perfil.
 
 
-*********************************************************************<img width="154" alt="img_123_" src="./img/Imagen%201.png"> ***************************************************************
+*********************************************<img width="154" alt="img_123_" src="./img/Imagen%201.png"> **********************************************
 
 ## Opinión de los integrantes en el desarrollo de la App
 
@@ -112,7 +112,7 @@ Realizaremos la conexión con nuestro Backend en el cual mediante servicios, hoo
 
  🗣️ - El desarrollo de este último proyecto ha sido todo un logro, en el cual se puso en práctica los conocimientos obtenidos para el desarrollo del back y sus mejoras, así como el front con el cual pudimos practicar nuevas funcionalidades aprendidas, además de los retos que supone el arrancar por primera vez una aplicación, que bien es cierto se las trae en sus puntos álgidos de gran dificultad. Sin embargo, hemos logrado alcanzar lo solicitado y algunos puntos adicionales que esperamos les sean de su agrado.
 
- 🗣️ -
+ 🗣️ - Ha sido increíble poder acompañar a mis love coders en el difícil desarrollo de este aplicación de almacenamiento en la nube. La verdad es que ha sido una experiencia de aprendizaje y también la mejor forma de saber todo lo que no sé, todo un mundo para seguir avanzando en el aprendizaje
 
  🗣️ - 
 
